@@ -52,14 +52,14 @@ The first database come from mysql/dumps, it's the base Arcturus database for 3.
 
 ### Have fun <3
 
-| Port    | Feature                            | Where change                     | Old port    |
-| :---:   | :---:                              | :---:                            | :---:       |
-| 7070    | swf nitro - assets                 |                                  | 8080        |
-| 1080    | nitro client                       |                                  |             |
-| 7071    | SWF - c_images, gamedata, dcr, etc |                                  | 8081        |
-| 13306   | mysql                              |                                  |             |
-| 7000    | CMS                                |                                  | 8000        |
-| 666     | HK                                 |                                  |             |
-| 3010    | Emulator                           |                                  | 3000        |
-| 2096    | Emulator ws                        | atom/.env, emulator/config.ini   |             |
-| 3011    | Emulator RCON                      |  atom/.env                       | 3001        |
+| Port    | Feature                            | Where change                                           | Old port    |
+| :---:   | :---:                              | :---:                                                  | :---:       |
+| 7070    | swf nitro - assets                 | in db website_settings table                           | 8080        |
+| 1080    | nitro client                       |                                                        |             |
+| 7071    | SWF - c_images, gamedata, dcr, etc | nitro/configuration/*                                  | 8081        |
+| 13306   | mysql                              |                                                        |             |
+| 7000    | CMS                                |                                                        | 8000        |
+| 666     | HK                                 |                                                        |             |
+| 3010    | Emulator                           |                                                        | 3000        |
+| 2096    | Emulator ws                        | atom/.env, emulator/config.ini nitro/configuration/*   |             |
+| 3011    | Emulator RCON                      |  atom/.env                                             | 3001        |
