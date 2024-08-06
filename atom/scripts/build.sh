@@ -12,6 +12,7 @@ cp /app/.env /app/atom/.env
 
 /usr/local/bin/composer install 
 php artisan key:generate
+php artisan migrate
 npm install && npm run build:atom 
 rm -rf /app/atom/public/client
 
