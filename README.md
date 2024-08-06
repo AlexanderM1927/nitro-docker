@@ -63,3 +63,5 @@ The first database come from mysql/dumps, it's the base Arcturus database for 3.
 | 3010    | Emulator                           |  atom/.env                                             | 3000        |
 | 2096    | Emulator ws                        | atom/.env, nitro/configuration/*                       |             |
 | 3011    | Emulator RCON                      |  atom/.env                                             | 3001        |
+
+To configure external follow up these guides: https://github.com/Gurkengewuerz/nitro-docker?tab=readme-ov-file#notes
