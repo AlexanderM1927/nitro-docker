@@ -60,6 +60,6 @@ The first database come from mysql/dumps, it's the base Arcturus database for 3.
 | 13306   | mysql                              |                                                        |             |
 | 7000    | CMS                                |                                                        | 8000        |
 | 666     | HK                                 |                                                        |             |
-| 3010    | Emulator                           |                                                        | 3000        |
+| 3010    | Emulator                           |  atom/.env                                             | 3000        |
 | 2096    | Emulator ws                        | atom/.env, emulator/config.ini nitro/configuration/*   |             |
 | 3011    | Emulator RCON                      |  atom/.env                                             | 3001        |
