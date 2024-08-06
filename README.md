@@ -50,7 +50,8 @@ The first database come from mysql/dumps, it's the base Arcturus database for 3.
 -   After the initial setup of the CMS, you can edit some settings in the `website_settings` table of the database.
 -   To test Atom HK, you will need to add rank 7 (admin) to your user in the `users` table of the database.
 
-### Have fun <3
+### Ports have changed:
+I have changed the following ports because internal connections with another project on the server may break up.
 
 | Port    | Feature                            | Where change                                           | Old port    |
 | :---:   | :---:                              | :---:                                                  | :---:       |
